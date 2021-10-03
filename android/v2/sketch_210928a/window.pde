@@ -50,12 +50,10 @@ class wnd extends Window{
 
     if(open||firstRun||buttonHover) {
       canvas1.beginDraw();
-      //canvas1.background(theme.windowfillcol);
-      canvas1.background(255);
+      canvas1.background(255,0);
       //canvas1.fill(theme.windowfillcol,theme.windowtransparency/40);
       canvas1.noStroke();
-      //if(firstRun||buttonHover)
-      //canvas1.rect(0,0,w,h,r1,r2,r3,r4);
+      //if(firstRun||buttonHover)canvas1.rect(0,0,w,h,r1,r2,r3,r4);
     }
 
     if(open){
